@@ -1,0 +1,4 @@
+O comando do Cron está configurado no Cron do linux (use o comando no temrinal 'crontab -e' para editar o Cron)
+
+O comando para rodar o 'enviar_email_mensal.py' está escrito da seguinte forma no Cron:
+* 7 1 * * cd /home/suporte/scripts/rh/absenteismo/scripts_python && /home/suporte/scripts/rh/absenteismo/.venv/bin/python enviar_email_mensal.py >> /home/suporte/scripts/rh/absenteismo/scripts_python/logs/cron_execucao_$(date +\%Y_\%m_\%d_\%H-\%$M).log

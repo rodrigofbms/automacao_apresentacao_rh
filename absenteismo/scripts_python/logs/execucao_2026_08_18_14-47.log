@@ -1,0 +1,60 @@
+2026-08-18 14:47:15 [INFO] 🚀 Iniciando rotina do relatório mensal de absenteísmo para Junho/2026...
+2026-08-18 14:47:15 [INFO] 🧹 Iniciando limpeza de arquivos automática (anteriores a 23/08/2025)...
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-18 14:47:15 [INFO] --- Gerando gráficos para o período: 2026-06-01 até 2026-06-30 ---
+2026-08-18 14:47:15 [INFO] --- Abrindo conexão única com SQL Server ---
+2026-08-18 14:47:15 [INFO] --- Conectando ao SQL Server ---
+2026-08-18 14:47:15 [INFO] ▶️  Executando o Gráfico: geral.grafico_linha_absenteismo_por_mes
+2026-08-18 14:47:21 [INFO] ▶️  Executando o Gráfico: geral.grafico_donut_horas_absenteismo
+2026-08-18 14:47:23 [INFO] ▶️  Executando o Gráfico: geral.grafico_barra_vertical_horas_absenteismo
+2026-08-18 14:47:24 [INFO] ▶️  Executando o Gráfico: faltas.grafico_barra_horizontal_por_centro_custo
+2026-08-18 14:47:27 [INFO] ▶️  Executando o Gráfico: faltas.cards_por_mes
+2026-08-18 14:47:31 [INFO] ▶️  Executando o Gráfico: atrasos.grafico_barra_horizontal_por_centro_custo
+2026-08-18 14:47:32 [INFO] ▶️  Executando o Gráfico: atrasos.cards_por_mes
+2026-08-18 14:47:34 [INFO] ▶️  Executando o Gráfico: atestados.grafico_barra_horizontal_por_centro_custo
+2026-08-18 14:47:37 [INFO] ▶️  Executando o Gráfico: atestados.grafico_barra_vertical_custo_atestados_por_centro_custo
+2026-08-18 14:47:41 [INFO] ▶️  Executando o Gráfico: atestados.grafico_linha_custo_atestados_por_mes
+2026-08-18 14:47:51 [INFO] ▶️  Executando o Gráfico: atestados.cards_por_mes
+2026-08-18 14:47:55 [INFO] --- Geração de gráficos concluída ---
+
+2026-08-18 14:47:55 [INFO] --- Conexão com SQL Server encerrada ---
+2026-08-18 14:47:55 [INFO] --- Conexão com SQL Server encerrada ---
+2026-08-18 14:47:55 [INFO] Imagens encontradas para Junho/2026: ['cards_atestados_por_mes_2026_06.png', 'custo_atestados_por_centro_custo_2026_06.png', 'custo_atestados_por_mes_2026_01-2026_06.png', 'top_5_atestados_absenteismo_por_centro_custo_2026_06.png', 'cards_atrasos_por_mes_2026_06.png', 'top_5_atrasos_absenteismo_por_centro_custo_2026_06.png', 'cards_faltas_por_mes_2026_06.png', 'top_5_faltas_absenteismo_por_centro_custo_2026_06.png', 'absenteismo_por_mes_2026_01-2026_06.png', 'barra_tipo_horas_absenteismo_2026_06.png', 'donut_tipo_horas_absenteismo_por_mes_2026_06.png']
+2026-08-18 14:47:55 [INFO] 📸 Grafico 1 codificado para análise: cards_atestados_por_mes_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 2 codificado para análise: custo_atestados_por_centro_custo_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 3 codificado para análise: custo_atestados_por_mes_2026_01-2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 4 codificado para análise: top_5_atestados_absenteismo_por_centro_custo_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 5 codificado para análise: cards_atrasos_por_mes_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 6 codificado para análise: top_5_atrasos_absenteismo_por_centro_custo_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 7 codificado para análise: cards_faltas_por_mes_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 8 codificado para análise: top_5_faltas_absenteismo_por_centro_custo_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 9 codificado para análise: absenteismo_por_mes_2026_01-2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 10 codificado para análise: barra_tipo_horas_absenteismo_2026_06.png
+2026-08-18 14:47:55 [INFO] 📸 Grafico 11 codificado para análise: donut_tipo_horas_absenteismo_por_mes_2026_06.png
+2026-08-18 14:47:55 [INFO] 🤖 Enviando painel de gráficos para análise multimodal do GPT-4o...
+2026-08-18 14:48:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 14:48:04 [INFO] ✅ Análise executiva gerada com sucesso pela OpenAI Vision.
+2026-08-18 14:48:04 [INFO] 📄 Carregando modelo PowerPoint: /home/suporte/scripts/rh/absenteismo/assets/template_apresentacao_rh.pptx
+2026-08-18 14:48:04 [INFO] ✏️ Título atualizado no Slide 1: 'Junho/2026'
+2026-08-18 14:48:04 [INFO] ✏️ Título atualizado no Slide 24: 'Junho/2026'
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'cards_atestados_por_mes_2026_06.png' inserido no Slide 29
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'custo_atestados_por_centro_custo_2026_06.png' inserido no Slide 31
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'custo_atestados_por_mes_2026_01-2026_06.png' inserido no Slide 30
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'top_5_atestados_absenteismo_por_centro_custo_2026_06.png' inserido no Slide 29
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'cards_atrasos_por_mes_2026_06.png' inserido no Slide 27
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'top_5_atrasos_absenteismo_por_centro_custo_2026_06.png' inserido no Slide 27
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'cards_faltas_por_mes_2026_06.png' inserido no Slide 28
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'top_5_faltas_absenteismo_por_centro_custo_2026_06.png' inserido no Slide 28
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'absenteismo_por_mes_2026_01-2026_06.png' inserido no Slide 25
+2026-08-18 14:48:04 [INFO] 📈 Gráfico 'donut_tipo_horas_absenteismo_por_mes_2026_06.png' inserido no Slide 26
+2026-08-18 14:48:04 [INFO] 📝 Análise de IA injetada com sucesso no Slide 32.
+2026-08-18 14:48:05 [INFO] ✅ Apresentação salva com sucesso em: /home/suporte/scripts/rh/absenteismo/scripts_python/apresentacoes/apresentacao_rh_2026_06.pptx
+2026-08-18 14:48:05 [INFO] Preparando e-mail com 11 gráfico(s) para rodrigo.souza@eletrodataengenharia.com.br...
+2026-08-18 14:48:13 [INFO] ✅ E-mail consolidado enviado com sucesso para rodrigo.souza@eletrodataengenharia.com.br!
+2026-08-18 14:48:16 [INFO] 📧 E-mail de notificação técnica/log enviado com sucesso para rodrigo.souza@eletrodataengenharia.com.br.
+2026-08-18 14:48:16 [INFO] 🎉 Pipeline executado e finalizado com SUCESSO!

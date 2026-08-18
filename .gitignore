@@ -1,0 +1,18 @@
+# Ignorar arquivos de ambiente com senhas
+.env
+*.env
+
+# Ignorar ambientes virtuais e cache do Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignorar a pasta assets e imagens PNG/JPG em QUALQUER subpasta do projeto
+**/assets/
+**/assets/*
+**/graficos/*.png
+
+
+# Ignorar relatórios PowerPoint gerados
+*.pptx
