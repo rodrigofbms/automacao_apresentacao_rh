@@ -51,7 +51,7 @@ def enviar_email_com_graficos(lista_imagens: list[Path], caminho_pptx: Path | No
                 <h2>Apresentação, Gráficos e Análise detalhada pelo IA — Fechamento {MES_ANO_EXTENSO}</h2>
                 <p>Bom dia, Priscila! Tudo bem?</p>
                 <p>Segue em anexo a apresentação em Power Point com os gráficos atualizados sobre o absenteísmo referente ao mês de <b>{MES_ANO_EXTENSO}</b>.</p>
-                <p>Os gráficos e a apresentação foram gerados com sucesso e estão dispostos em <b>anexo</b> neste e-mail, além do parecer feito pelo IA de acordo com os dados relativos ao mês analisado.</p>
+                <p>Os gráficos e a apresentação foram gerados com sucesso e estão dispostos em <b>anexo</b> neste e-mail, além do parecer feito pela IA de acordo com os dados relativos ao mês analisado.</p>
                 
                 <p><b>Arquivos anexados ({len(lista_imagens)}):</b></p>
                 <ul>
