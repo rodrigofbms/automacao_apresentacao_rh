@@ -1,0 +1,37 @@
+2026-08-19 13:30:30 [INFO] 🚀 Iniciando rotina do relatório mensal de absenteísmo para Junho/2026...
+2026-08-19 13:30:30 [INFO] 🧹 Iniciando limpeza de arquivos automática (anteriores a 24/08/2025)...
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] ✅ Limpeza concluída: 0 arquivo(s) removido(s) no total.
+2026-08-19 13:30:30 [INFO] --- Gerando gráficos para o período: 2026-06-01 até 2026-06-30 ---
+2026-08-19 13:30:30 [INFO] --- Abrindo conexão única com SQL Server ---
+2026-08-19 13:30:30 [INFO] --- Conectando ao SQL Server ---
+2026-08-19 13:30:30 [INFO] ▶️  Executando o Gráfico: geral.grafico_linha_absenteismo_por_mes
+2026-08-19 13:30:35 [ERROR] ❌ Erro durante a execução da função: geral.grafico_linha_absenteismo_por_mes
+2026-08-19 13:30:35 [ERROR] ✉️ Mensagem de erro: [Errno 2] No such file or directory: '/home/suporte/scripts/automacao-rh/absenteismo/assets/LOGO_ELETRODATA_VERTICAL_FUNDO_TRANSPARENTE.png'
+2026-08-19 13:30:35 [INFO] --- Conexão com SQL Server encerrada ---
+2026-08-19 13:30:35 [INFO] --- Conexão com SQL Server encerrada ---
+2026-08-19 13:30:35 [CRITICAL] ❌ Falha na execução do Pipeline: [Errno 2] No such file or directory: '/home/suporte/scripts/automacao-rh/absenteismo/assets/LOGO_ELETRODATA_VERTICAL_FUNDO_TRANSPARENTE.png'
+Traceback (most recent call last):
+  File "/home/suporte/scripts/automacao-rh/absenteismo/scripts_python/main.py", line 159, in <module>
+    executar_scripts_graficos(DATA_INICIO_SQL, DATA_FIM_SQL, DATA_INICIO_ANO_SQL)
+  File "/home/suporte/scripts/automacao-rh/absenteismo/scripts_python/main.py", line 134, in executar_scripts_graficos
+    raise e
+  File "/home/suporte/scripts/automacao-rh/absenteismo/scripts_python/main.py", line 125, in executar_scripts_graficos
+    funcao(conexao, data_inicio_sql, data_fim_sql, data_inicio_ano_sql)
+  File "/home/suporte/scripts/automacao-rh/absenteismo/scripts_python/geral/grafico_linha_absenteismo_por_mes.py", line 182, in gerar_grafico
+    assinar_grafico(plt.gcf())
+  File "/home/suporte/scripts/automacao-rh/absenteismo/scripts_python/utils/assinatura_grafico.py", line 93, in assinar_grafico
+    logo = mpimg.imread(logo_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suporte/scripts/automacao-rh/.venv/lib/python3.12/site-packages/matplotlib/image.py", line 1587, in imread
+    with img_open(fname) as image:
+         ^^^^^^^^^^^^^^^
+  File "/home/suporte/scripts/automacao-rh/.venv/lib/python3.12/site-packages/PIL/ImageFile.py", line 138, in __init__
+    self.fp = open(fp, "rb")
+              ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/suporte/scripts/automacao-rh/absenteismo/assets/LOGO_ELETRODATA_VERTICAL_FUNDO_TRANSPARENTE.png'
+2026-08-19 13:30:37 [INFO] 📧 E-mail de notificação técnica/log enviado com sucesso para rodrigo.souza@eletrodataengenharia.com.br.
