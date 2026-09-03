@@ -81,7 +81,7 @@ def gerar_grafico(conexao, data_inicio_sql=None, data_fim_sql=None, data_inicio_
     pasta_graficos.mkdir(parents=True, exist_ok=True)
 
     # Nome do arquivo de saída
-    nome_arquivo_saida = pasta_graficos / f"cards_faltas_por_mes_2026_06.png"
+    nome_arquivo_saida = pasta_graficos / f"cards_faltas_por_mes_{mes_ano_filtro}.png"
 
     # Verificar
     if df.empty:

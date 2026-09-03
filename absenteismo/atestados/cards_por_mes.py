@@ -83,7 +83,7 @@ def gerar_grafico(conexao,
     df = pd.read_sql(SCRIPTS_SQL["atestados_por_mes"], conexao, params=[data_inicio_sql, data_fim_sql])
 
     # Nome do arquivo de saída
-    nome_arquivo_saida = pasta_graficos / f"cards_atestados_por_mes_2026_06.png"
+    nome_arquivo_saida = pasta_graficos / f"cards_atestados_por_mes_{mes_ano_filtro}.png"
 
     if df.empty:
 
